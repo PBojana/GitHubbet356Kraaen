@@ -48,7 +48,7 @@ public class LigaUtakmica  {
 	@Test
 	public void test() throws InterruptedException { 
 	
-		File file = new File("C:/Users/Dell/Desktop");
+		File file = new File("C:/Users/User07/Desktop/bet356.properties");
 		 
     	FileInputStream fileInput = null;
 		try {
