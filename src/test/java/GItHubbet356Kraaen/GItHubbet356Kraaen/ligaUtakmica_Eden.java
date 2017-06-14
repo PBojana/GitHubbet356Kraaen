@@ -26,7 +26,7 @@ import javax.mail.PasswordAuthentication;
  
 
 
-public class LigaUtakmica  {
+public class ligaUtakmica_Eden  {
 
 
 	public WebDriver driver;
@@ -49,7 +49,7 @@ public class LigaUtakmica  {
 	@Test
 	public void test() throws InterruptedException { 
 	
-		File file = new File("C:/temp/bet356.properties");
+		File file = new File("C:/temp/bet356_Eden.properties");
 		 
     	FileInputStream fileInput = null;
 		try {
