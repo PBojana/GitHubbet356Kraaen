@@ -102,17 +102,19 @@ public class LigaUtakmica  {
 	    		driver.findElement(By.xpath("//div[2]/div/div/div/div[2]/div/div[2]")).click();
 	    		Thread.sleep(1000);
 	    	 
-	    		 String AssianHand= driver.findElement(By.cssSelector("span.gl-ParticipantCentered_Handicap")).getText();
 	    		 
-	    		 System.out.println("AssianHand" +AssianHand+"kraj");
-	    		 
-	    		 String AssianOdds= driver.findElement(By.cssSelector("span.gl-ParticipantCentered_Odds")).getText();
-	    		  
-	    		 System.out.println("AssianOdds" +AssianOdds+"kraj");
-	    		
 	    		 
 	    			if (driver.findElements(By.cssSelector("span.gl-ParticipantCentered_Handicap")).size()!=0)
 	    				{
+	    				String AssianHand= driver.findElement(By.cssSelector("span.gl-ParticipantCentered_Handicap")).getText();
+	   	    		 
+	   	    		 System.out.println("AssianHand" +AssianHand+"kraj");
+	   	    		 
+	   	    		 String AssianOdds= driver.findElement(By.cssSelector("span.gl-ParticipantCentered_Odds")).getText();
+	   	    		  
+	   	    		 System.out.println("AssianOdds" +AssianOdds+"kraj");
+	   	    		
+	   	    		 
 	    				 if (!(AssianHand.trim().isEmpty())){
 	    					if (!(AssianOdds.trim().isEmpty()))
 	    						{	
